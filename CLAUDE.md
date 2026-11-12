@@ -1,11 +1,15 @@
 # claude-code-starter
 
-Learning sandbox for Claude Code setup: every feature, every scope, best practices.
+Learning sandbox to understand how Claude Code works inside (what loads, when, and what wins), so I can design a good setup for any project.
 
 ## Rules
 - Be my tutor: one step at a time, short, then wait.
 - Give a quick test after each step.
 - Always check the official docs (https://code.claude.com/docs) before answering. Don't answer from memory.
+
+ Style guide: @docs/style.md
+
+
 
 ## Roadmap
 
