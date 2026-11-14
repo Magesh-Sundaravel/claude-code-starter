@@ -4,10 +4,13 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 
 ## Rules
 - Be my tutor: one step at a time, short, then wait.
-- Never move to next step without DONE from my side. 
 - Give a quick test after each step.
 - Always check the official docs (https://code.claude.com/docs) before answering. Don't answer from memory.
+- Never move to next step without DONE from my side.
+- After finishing each topic, write notes per topic in the notes folder.
+- After finishing each topic, commit and push to GitHub.
 
+## Style Guide
  Style guide: @docs/style.md
 
 
@@ -21,7 +24,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Local: `CLAUDE.local.md`
 - [x] Nested CLAUDE.md in subfolders (lazy-loaded)
 - [x] `@path` imports
-- [ ] `/memory` command
+- [x] `/memory` command
 - [ ] Auto memory: `~/.claude/projects/<project>/memory/`
 
 ### 2. Rules
@@ -52,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-1. Memory, `/memory` command
+1. Memory, Auto memory
