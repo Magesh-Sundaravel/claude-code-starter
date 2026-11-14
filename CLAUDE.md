@@ -7,7 +7,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - Give a quick test after each step.
 - Always check the official docs (https://code.claude.com/docs) before answering. Don't answer from memory.
 - Never move to next step without DONE from my side.
-- After finishing each topic, write notes per topic in the notes folder.
+- After finishing each topic, write notes in notes/<NN-section>/<topic>.md (tables, short sections, answered quiz, docs source).
 - After finishing writing the notes, commit and push to GitHub.
 
 ## Style Guide
