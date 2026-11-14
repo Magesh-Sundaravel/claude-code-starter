@@ -25,7 +25,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Nested CLAUDE.md in subfolders (lazy-loaded)
 - [x] `@path` imports
 - [x] `/memory` command
-- [ ] Auto memory: `~/.claude/projects/<project>/memory/`
+- [x] Auto memory: `~/.claude/projects/<project>/memory/`
 
 ### 2. Rules
 - [ ] `.claude/rules/*.md`: split instructions by topic
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-1. Memory, Auto memory
+2. Rules, `.claude/rules/*.md`
