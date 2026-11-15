@@ -31,7 +31,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] `.claude/rules/*.md`: split instructions by topic
 - [x] `paths:` frontmatter for file-specific rules
 - [x] User rules: `~/.claude/rules/`
-- [ ] Share rules across repos with symlinks
+- [x] Share rules across repos with symlinks
 
 ### 3. Settings & permissions
 - [ ] User / project / local `settings.json`
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-2. Rules, Share rules across repos with symlinks
+3. Settings & permissions, User / project / local `settings.json`
