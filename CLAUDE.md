@@ -28,7 +28,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Auto memory: `~/.claude/projects/<project>/memory/`
 
 ### 2. Rules
-- [ ] `.claude/rules/*.md`: split instructions by topic
+- [x] `.claude/rules/*.md`: split instructions by topic
 - [ ] `paths:` frontmatter for file-specific rules
 - [ ] User rules: `~/.claude/rules/`
 - [ ] Share rules across repos with symlinks
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-2. Rules, `.claude/rules/*.md`
+2. Rules, `paths:` frontmatter
