@@ -34,7 +34,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Share rules across repos with symlinks
 
 ### 3. Settings & permissions
-- [ ] User / project / local `settings.json`
+- [x] User / project / local `settings.json`
 - [ ] Permissions: allow / ask / deny (they merge)
 
 ### 4. Plans
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-3. Settings & permissions, User / project / local `settings.json`
+3. Settings & permissions, Permissions: allow / ask / deny (they merge)
