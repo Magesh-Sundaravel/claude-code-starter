@@ -35,7 +35,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 
 ### 3. Settings & permissions
 - [x] User / project / local `settings.json`
-- [ ] Permissions: allow / ask / deny (they merge)
+- [x] Permissions: allow / ask / deny (they merge)
 
 ### 4. Plans
 - [ ] Plan mode
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-3. Settings & permissions, Permissions: allow / ask / deny (they merge)
+4. Plans, Plan mode
