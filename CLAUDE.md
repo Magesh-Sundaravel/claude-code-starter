@@ -42,7 +42,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] `plansDirectory` setting to save plans in the repo
 
 ### 5. Extending
-- [ ] Skills: `.claude/skills/`
+- [x] Skills: `.claude/skills/`
 - [ ] Subagents: `.claude/agents/`
 - [ ] Hooks
 - [ ] MCP: `.mcp.json`
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-5. Extending, Skills: `.claude/skills/`
+5. Extending, Subagents: `.claude/agents/`
