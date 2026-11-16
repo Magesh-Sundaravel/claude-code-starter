@@ -38,7 +38,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Permissions: allow / ask / deny (they merge)
 
 ### 4. Plans
-- [ ] Plan mode
+- [x] Plan mode
 - [ ] `plansDirectory` setting to save plans in the repo
 
 ### 5. Extending
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-4. Plans, Plan mode
+4. Plans, `plansDirectory` setting to save plans in the repo
