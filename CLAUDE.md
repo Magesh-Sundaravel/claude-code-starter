@@ -44,7 +44,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 ### 5. Extending
 - [x] Skills: `.claude/skills/`
 - [x] Subagents: `.claude/agents/`
-- [ ] Hooks
+- [x] Hooks
 - [ ] MCP: `.mcp.json`
 - [ ] Plugins
 
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-5. Extending, Hooks
+5. Extending, MCP
