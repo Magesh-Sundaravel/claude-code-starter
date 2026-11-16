@@ -39,7 +39,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 
 ### 4. Plans
 - [x] Plan mode
-- [ ] `plansDirectory` setting to save plans in the repo
+- [x] `plansDirectory` setting to save plans in the repo
 
 ### 5. Extending
 - [ ] Skills: `.claude/skills/`
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-4. Plans, `plansDirectory` setting to save plans in the repo
+5. Extending, Skills: `.claude/skills/`
