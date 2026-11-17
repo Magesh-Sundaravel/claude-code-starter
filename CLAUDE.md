@@ -46,7 +46,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Subagents: `.claude/agents/`
 - [x] Hooks
 - [x] MCP: `.mcp.json`
-- [ ] Plugins
+- [x] Plugins
 
 ### 6. Best practices
 - [ ] What goes where: CLAUDE.md vs rules vs skills vs hooks
@@ -55,4 +55,4 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-5. Extending, Plugins
+6. Best practices, what goes where: CLAUDE.md vs rules vs skills vs hooks
