@@ -49,10 +49,10 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] Plugins
 
 ### 6. Best practices
-- [ ] What goes where: CLAUDE.md vs rules vs skills vs hooks
+- [x] What goes where: CLAUDE.md vs rules vs skills vs hooks
 - [ ] Keep CLAUDE.md lean
 - [ ] What to commit vs gitignore
 - [ ] Real setup for FastAPI + React
 
 ## Current step
-6. Best practices, what goes where: CLAUDE.md vs rules vs skills vs hooks
+6. Best practices, keep CLAUDE.md lean
