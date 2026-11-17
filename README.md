@@ -17,15 +17,23 @@ this repo, and written up in `notes/` before moving on.
 .
 ├── CLAUDE.md          # Project memory: rules, roadmap, current step (committed)
 ├── CLAUDE.local.md    # Personal project memory (gitignored)
+├── .mcp.json          # Project-scoped MCP server (demo, fake URL)
+├── .claude/
+│   ├── settings.json  # Shared settings: permissions, hooks
+│   ├── rules/         # Topic rules (greeting.md, python.md with paths: frontmatter)
+│   └── hooks/
+│       └── block-rm-rf.sh   # PreToolUse hook script
 ├── docs/
 │   └── style.md       # Imported into CLAUDE.md via @docs/style.md
 ├── backend/
 │   ├── CLAUDE.md      # Nested memory, lazy-loaded when backend/ files are touched
 │   └── app.py
 └── notes/             # One note per topic, grouped by roadmap section
-    └── 01-memory/
-        ├── scopes.md
-        └── nested.md
+    ├── 01-memory/     # scopes, nested, imports, /memory, auto memory
+    ├── 02-rules/      # rules directory, paths, user rules, symlinks
+    ├── 03-settings/   # settings scopes, permissions
+    ├── 04-plans/      # plan mode, plansDirectory
+    └── 05-extending/  # skills, subagents, hooks, mcp, plugins
 ```
 
 ## Roadmap
@@ -39,7 +47,7 @@ this repo, and written up in `notes/` before moving on.
 | 5 | Extending | Skills, subagents, hooks, MCP (`.mcp.json`), plugins |
 | 6 | Best practices | What goes where, keeping `CLAUDE.md` lean, what to commit, a real FastAPI + React setup |
 
-Progress is tracked with checkboxes in [`CLAUDE.md`](CLAUDE.md).
+Progress is tracked with checkboxes in [`CLAUDE.md`](CLAUDE.md). Sections 1 to 5 are done; section 6 is next.
 
 ## How to use it
 
