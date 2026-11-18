@@ -33,7 +33,8 @@ this repo, and written up in `notes/` before moving on.
     ├── 02-rules/      # rules directory, paths, user rules, symlinks
     ├── 03-settings/   # settings scopes, permissions
     ├── 04-plans/      # plan mode, plansDirectory
-    └── 05-extending/  # skills, subagents, hooks, mcp, plugins
+    ├── 05-extending/  # skills, subagents, hooks, mcp, plugins
+    └── 06-best-practices/  # what goes where, lean CLAUDE.md, commit vs ignore, FastAPI + React
 ```
 
 ## Roadmap
@@ -47,7 +48,7 @@ this repo, and written up in `notes/` before moving on.
 | 5 | Extending | Skills, subagents, hooks, MCP (`.mcp.json`), plugins |
 | 6 | Best practices | What goes where, keeping `CLAUDE.md` lean, what to commit, a real FastAPI + React setup |
 
-Progress is tracked with checkboxes in [`CLAUDE.md`](CLAUDE.md). Sections 1 to 5 are done; section 6 is next.
+Progress is tracked with checkboxes in [`CLAUDE.md`](CLAUDE.md). All six sections are done.
 
 ## How to use it
 
