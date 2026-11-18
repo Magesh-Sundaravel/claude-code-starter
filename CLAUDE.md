@@ -52,7 +52,7 @@ Learning sandbox to understand how Claude Code works inside (what loads, when, a
 - [x] What goes where: CLAUDE.md vs rules vs skills vs hooks
 - [x] Keep CLAUDE.md lean
 - [x] What to commit vs gitignore
-- [ ] Real setup for FastAPI + React
+- [x] Real setup for FastAPI + React
 
 ## Current step
-6. Best practices, real setup for FastAPI + React
+All sections complete. Optional next: update README progress
