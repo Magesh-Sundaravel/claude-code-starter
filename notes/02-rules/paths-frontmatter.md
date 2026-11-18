@@ -49,6 +49,21 @@ Multiple patterns are fine, and so is brace expansion (e.g. `src/**/*.{ts,tsx}`)
 2. Read empty `hello.py` → answer started with 🐍. The trigger is reading the file, not what's in it.
 3. Added `paths: ["**/*.py"]` → after `/clear`, `python.md` is not in `/memory` until a `.py` file is read.
 
+## Trade-off: lazy rules and compaction
+
+A path-scoped rule loads into **message history** when Claude reads, writes or edits a matching file. That has two consequences:
+
+| Effect | Detail |
+|---|---|
+| Not in `/context` Memory files | `/context` lists what loaded at launch there; a lazily loaded rule counts under Messages (observed in the claude-demo test; docs say these files load into message history) |
+| Compaction summarizes it away | After `/compact` or auto-compaction the rule text is gone until Claude touches a matching file again, then Claude Code reloads it on demand |
+
+If a rule must stay active without waiting for a matching file, the docs say to drop `paths:` or move it to the project-root CLAUDE.md. The cost: it then loads every request, even in sessions that never touch those files. If it must hold **every time**, use a hook instead.
+
+Same behavior for nested CLAUDE.md files: see `notes/01-memory/nested.md`.
+
+Source: https://code.claude.com/docs/en/context-window (What survives compaction)
+
 ## Quiz (answered ✅)
 
 1. Read `hello.py`: does the rule fire? **Yes**, 🐍 appeared.
